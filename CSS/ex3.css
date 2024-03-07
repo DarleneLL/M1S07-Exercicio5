@@ -1,0 +1,127 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/M1S07/Exercicio5/Assets/images.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    width: 50vw;
+    margin-top: 15vh;
+}
+
+.container2 {
+    display: grid;
+    grid-template-areas: 
+        "col1 col2"
+        "col1 col2"
+    ;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 90vh;
+    height: 50vh;
+    background-color: white;
+    border-radius: 15px;
+    padding: 5%;
+}
+
+.titulo {
+    font-size: 160%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    margin-bottom: 5%;
+    margin-top: 0;
+}
+
+span {
+    color: blue;
+}
+.col1 {
+    grid-area: col1;
+    margin: 0 8%;
+}
+
+.col1 img {
+    margin-top: 12%;
+    width: 70%;
+    height: 55%;
+}
+
+.col1 a{
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60%;
+}
+
+.text {
+    font-size: 80%;
+    margin: 0;
+    padding-left: 0;
+}
+
+.col2 {
+    grid-area: col2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+} 
+
+.col2 img{
+    width: 20px;
+    padding-right: 10px;
+}
+
+.traco {
+    color: rgb(195, 192, 192);
+}
+
+.botao-logo {
+    display: flex;
+    align-items: center;
+    border-width: 0.5px;
+    background-color: white;
+    border-radius: 10px;
+    height: 10%;
+    width: 75%;
+    font-size: 10px;
+    margin-bottom: 4%;
+}
+
+.campo-input{
+    border: none;
+    margin-top: 0;
+    margin-bottom: 4%;
+    background-color: rgb(219, 233, 244);
+    height: 10%;
+    width: 75%;
+    border-radius: 8px;
+    font-size: 12px;
+}
+
+.botao-sign {
+   margin-top: 4%;
+   background-color:rgb(0, 72, 255) ;
+   color: white;
+   border: none;
+   border-radius: 8px;
+   cursor: pointer;
+   font-size: 12px;
+   height: 10%;
+   width: 75%;
+
+}
+
+.recuperar-senha {
+    text-decoration: none;
+    padding-left: 40%;
+    color: black;
+    font-size: 12px;
+}
